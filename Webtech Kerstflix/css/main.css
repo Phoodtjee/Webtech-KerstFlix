@@ -1,5 +1,6 @@
 html {
     background-color:rgba(0,0,0,0.85);
+    font-family: sans-serif;
 
 }
 
@@ -21,8 +22,51 @@ nav ul li{
 
 
 body{
-    width: 960px;
+    width: 1140px;
     margin:auto;
     margin-top:40px;
     background-color:white;
 }
+
+.films{
+    width: 100%;
+    display:flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.temp{
+    background-color:lightblue;
+    border:2px solid black;
+
+    height:300px;
+    width:200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
