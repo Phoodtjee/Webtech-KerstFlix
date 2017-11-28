@@ -1,18 +1,14 @@
-/* reset */
-* {
-    padding:0px;
-    margin:0px;
-    box-sizing: border-box;
-}
-
-p, dl, multicol{
-    display:block;
-    margin-blick-start:1em;
-    margin-block-end:1em;
-}
-/* eind reset */
-
 html {
     background-color:cyan;
 
+}
+
+nav{
+    display:flex;
+    background-color:red;
+    border: 1px solid black;
+}
+
+nav ul{
+    display:inline-block;;
 }
