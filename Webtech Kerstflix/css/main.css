@@ -1,14 +1,18 @@
 html {
-    background-color:cyan;
+    background-color:rgba(0,0,0,0.85);
 
 }
 
 nav{
+    position: static;
     display:flex;
-    background-color:red;
-    border: 1px solid black;
+    justify-content: space-around;
+
+
 }
 
-nav ul{
-    display:inline-block;;
+nav ul li{
+    display:inline-block;
+    background-color:red;
+    border: 1px solid black;
 }
