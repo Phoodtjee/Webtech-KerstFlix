@@ -3,7 +3,7 @@ html {
     font-family: sans-serif;
 
 }
-
+/*nav*/
 nav{
     position: static;
     display:flex;
@@ -32,6 +32,7 @@ li:hover{
     background-color:darkred;
 
 }
+/*end nav*/
 
 body{
     width: 1140px;
@@ -40,6 +41,8 @@ body{
     background-color:white;
 }
 
+
+/*film overzicht*/
 .films{
     width: 100%;
     display:flex;
@@ -55,7 +58,7 @@ body{
     height:300px;
     width:200px;
 }
-
+/*eind film overzicht*/
 
 
 
