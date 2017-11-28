@@ -16,3 +16,13 @@ nav ul li{
     background-color:red;
     border: 1px solid black;
 }
+
+
+
+
+body{
+    width: 960px;
+    margin:auto;
+    margin-top:40px;
+    background-color:white;
+}
