@@ -2,6 +2,10 @@ html {
     background-color:rgba(0,0,0,0.90);
     font-family:'Exo 2', sans-serif;
 }
+
+.flex-right{
+    align-self: flex-end;
+}
 /*nav*/
 nav{
     position: fixed;
@@ -17,14 +21,14 @@ nav{
     align-items: center;
 }
 
-nav div{
+nav > div{
     width: 1140px;
     margin: auto;
 }
+
 nav ul li{
     display:inline-block;
     font-size: 35px;
-
 }
 
 nav a {
