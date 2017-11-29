@@ -1,15 +1,16 @@
 html {
-    background-color:rgba(0,0,0,0.90);
-    font-family:'Exo 2', sans-serif;
+    background-color: rgba(0, 0, 0, 0.90);
+    font-family: 'Exo 2', sans-serif;
 }
+
 /*nav*/
-nav{
+nav {
     position: fixed;
-    display:flex;
+    display: flex;
     justify-content: center;
     left: 0;
     top: 0;
-    background-color:rgb(45, 45, 45);
+    background-color: rgb(45, 45, 45);
     width: 100%;
     height: 50px;
     border-radius: 5px;
@@ -17,14 +18,14 @@ nav{
     align-items: center;
 }
 
-nav div{
+nav div {
     width: 1140px;
     margin: auto;
 }
-nav ul li{
-    display:inline-block;
-    font-size: 35px;
 
+nav ul li {
+    display: inline-block;
+    font-size: 35px;
 }
 
 nav a {
@@ -37,93 +38,117 @@ a {
     margin: 10px;
 }
 
-li:hover{
-    background-color:rgba(255, 255, 255, 0.05);
-
+li:hover {
+    background-color: rgba(255, 255, 255, 0.05);
 }
+
 /*end nav*/
 
-body{
+body {
     width: 1140px;
-    margin:auto;
-    margin-top:50px;
-    background-color:white;
-    padding:20px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: white;
+    padding: 20px;
 }
 
-
-/*film overzicht*/
-.movies{
+/*//////////////////////////////
+movies
+//////////////////////////////*/
+.movies {
     width: 100%;
-    display:flex;
-    justify-content:flex-start;
+    display: flex;
+    justify-content: flex-start;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: row
 }
 
-.movies a{
-    margin-top: 0;
+.movies a {
+    margin-top: 0
 }
 
-.movies h2{
-    margin: 15px 0 15px 10px;
+.movies h2 {
+    margin: 15px 0 15px 10px
 }
 
-.movies .category{
-    display:flex;
+.movies .category {
+    display: flex;
     justify-content: flex-start;
     flex-direction: row;
-    border-bottom:1px solid black;
+    border-bottom: 1px solid #000
 }
 
-.movie{
-    background-color:red;
-    border:4px solid black;
+/*//////////////////////////////
+movie
+//////////////////////////////*/
+.movie {
+    background-color: red;
+    border: 4px solid #000;
     border-radius: 4px;
-    margin:0;
-    height:320px;
-    width:200px;
+    margin: 0;
+    height: 320px;
+    width: 200px
 }
 
-.movie img{
-    width:100%;
+.movie img {
+    width: 100%
 }
 
 .movie .title {
     max-width: 200px;
     max-height: 45px;
-    padding:0 5px 0 5px;
+    padding: 0 5px;
     overflow: hidden;
-    text-overflow: ellipsis;
+    text-overflow: ellipsis
 }
-/*eind film overzicht*/
 
-
-
-footer{
-    text-align: right;
-}
 /*//////////////////////////////
 movie detail
 //////////////////////////////*/
-.movie-details img{
-    max-width:100px;
+.movie-details img {
+    max-width: 100px;
 
+}
+
+
+/*//////////////////////////////
+positioning and sizes
+//////////////////////////////*/
+.flex {
+    display: flex;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.third-width {
+    width: 33%;
+}
+
+.two-third-width {
+    width: 66%;
+}
+
+.quarter-width {
+    width: 25%;
+}
+
+.three-quarter-width {
+    width: 75%;
 }
 
 
 /*//////////////////////////////
 generic classes
 //////////////////////////////*/
-.flex{display:flex;}
-.full-width{width: 100%;}
-.half-width{width:  50%;}
-.third-width{width: 33%;}
-.two-third-width{width: 66%;}
-.quarter-width{width:25%;}
-.three-quarter-width{width:75%;}
-
-
+footer {
+    text-align: right
+}
 
 
 
