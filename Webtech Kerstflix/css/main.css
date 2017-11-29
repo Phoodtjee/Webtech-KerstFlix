@@ -1,7 +1,6 @@
 html {
-    background-color:rgba(0,0,0,0.85);
-    font-family: sans-serif;
-
+    background-color:rgba(0,0,0,0.90);
+    font-family:'Exo 2', sans-serif;
 }
 /*nav*/
 nav{
@@ -10,9 +9,12 @@ nav{
     justify-content: center;
     left: 0px;
     top: 0px;
-    background-color: green;
+    background-color:rgb(45, 45, 45);
     width: 100%;
     height: 50px;
+    border-radius: 5px;
+    z-index: 5;
+    align-items: center;
 }
 
 nav div{
@@ -21,12 +23,12 @@ nav div{
 }
 nav ul li{
     display:inline-block;
-    border: 1px solid black;
-    border-radius: 5px;
     font-size: 35px;
-    color: black;
-    background-color: red;
 
+}
+
+nav a {
+    color: white;
 }
 
 a {
@@ -36,7 +38,7 @@ a {
 }
 
 li:hover{
-    background-color:darkred;
+    background-color:rgba(255, 255, 255, 0.05);
 
 }
 /*end nav*/
