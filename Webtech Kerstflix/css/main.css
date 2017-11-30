@@ -93,7 +93,7 @@ movie
     width: 200px
 }
 
-.movie .img-div{
+.movie .img-div {
 }
 
 .movie img {
@@ -106,7 +106,8 @@ movie
     max-height: 50px;
     padding: 0 5px;
 }
-.movie .title h3{
+
+.movie .title h3 {
     font-size: 1em;
 
     overflow: hidden;
@@ -121,18 +122,13 @@ movie detail
     max-width: 100%;
 }
 
-.movie-details .generic-information{
-    padding:0 20px 0 20px;
+.movie-details .generic-information {
+    padding: 0 20px 0 20px;
 }
 
-.movie-details .description{
-
+.movie-details .generic-information a {
+    margin: 0;
 }
-
-.movie-details .cast{
-
-}
-
 
 /*//////////////////////////////
 positioning and sizes
@@ -165,8 +161,8 @@ positioning and sizes
     width: 75%;
 }
 
-.space-top{
-    margin-top:20px;
+.space-top {
+    margin-top: 20px;
 }
 
 /*//////////////////////////////
@@ -176,7 +172,14 @@ footer {
     text-align: right
 }
 
-
+a .link-highlight{
+    color:#FF9900;
+    text-decoration: underline;
+}
+a:hover .link-highlight{
+    color:#FF9900;
+    text-decoration: underline;
+}
 
 
 
