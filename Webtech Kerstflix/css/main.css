@@ -140,9 +140,6 @@ movie
     width: 200px
 }
 
-.movie .img-div {
-}
-
 .movie img {
     width: 100%;
     max-height: 255px;
@@ -182,6 +179,12 @@ movie detail
 
 .movie-details .generic-information a {
     margin: 0;
+    text-decoration: underline;
+    color:green;
+}
+
+.movie-details .generic-information a:hover {
+    color:red;
 }
 
 /*//////////////////////////////
