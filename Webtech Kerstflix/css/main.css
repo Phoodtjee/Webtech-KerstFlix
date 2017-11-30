@@ -181,7 +181,11 @@ a:hover .link-highlight{
     text-decoration: underline;
 }
 
+/*/////////////////////////////
+Trailer Positioning
+/////////////////////////////*/
 
-
-
-
+.Trailer-Flex{
+    display: flex;
+    justify-content: space-around;
+}
