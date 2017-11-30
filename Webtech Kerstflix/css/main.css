@@ -28,7 +28,7 @@ nav > div {
 
 nav ul li {
     display: inline-block;
-    font-size: 35px;
+    font-size: 20px;
 }
 
 nav a {
@@ -43,6 +43,42 @@ a {
 
 li:hover {
     background-color: rgba(255, 255, 255, 0.05);
+}
+
+nav > ul > li > ul{
+    visibility:hidden;
+}
+nav > ul > li:hover > ul{
+    visibility:visible;
+}
+
+nav li li:hover{
+    background-color:gray;
+}
+
+nav li ul {
+    display: none;
+    height: auto;
+    position: absolute;
+    width: auto;
+}
+nav li:hover ul {
+    display: block;
+}
+nav li li {
+    display: block;
+    float: none;
+    width: 200px;
+    background: silver;
+
+}
+nav li:hover li a {
+    background: none;
+}
+nav li ul a:hover,
+nav li ul li:hover a {
+    border: 0;
+    text-decoration: none;
 }
 
 /*end nav*/
@@ -178,6 +214,14 @@ positioning and sizes
 .space-top {
     margin-top: 20px;
 }
+/*//////////////////////////////
+radio button
+//////////////////////////////*/
+
+
+
+
+
 
 /*//////////////////////////////
 generic classes
