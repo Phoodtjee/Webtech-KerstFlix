@@ -165,6 +165,9 @@ positioning and sizes
     width: 75%;
 }
 
+.space-top{
+    margin-top:20px;
+}
 
 /*//////////////////////////////
 generic classes
