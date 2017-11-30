@@ -18,9 +18,11 @@ nav {
     align-items: center;
 }
 
-nav div {
+nav > div {
     width: 1140px;
     margin: auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 nav ul li {
@@ -106,7 +108,18 @@ movie
 movie detail
 //////////////////////////////*/
 .movie-details img {
-    max-width: 100px;
+    max-width: 100%;
+}
+
+.movie-details .generic-information{
+    padding:0 20px 0 20px;
+}
+
+.movie-details .description{
+
+}
+
+.movie-details .cast{
 
 }
 
@@ -149,10 +162,6 @@ generic classes
 footer {
     text-align: right
 }
-
-
-
-
 
 
 
