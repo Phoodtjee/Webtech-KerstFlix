@@ -1,6 +1,7 @@
 html {
     background-color: rgba(0, 0, 0, 0.90);
     font-family: 'Exo 2', sans-serif;
+    font-size: 24px;
 }
 
 /*nav*/
@@ -88,20 +89,29 @@ movie
     border: 4px solid #000;
     border-radius: 4px;
     margin: 0;
-    height: 320px;
+    height: 325px;
     width: 200px
 }
 
+.movie .img-div{
+}
+
 .movie img {
-    width: 100%
+    width: 100%;
+    max-height: 255px;
 }
 
 .movie .title {
     max-width: 200px;
-    max-height: 45px;
+    max-height: 50px;
     padding: 0 5px;
+}
+.movie .title h3{
+    font-size: 1em;
+
     overflow: hidden;
-    text-overflow: ellipsis
+    text-overflow: ellipsis;
+    text-wrap: none;
 }
 
 /*//////////////////////////////
