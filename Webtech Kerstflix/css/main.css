@@ -131,6 +131,20 @@ movie detail
 }
 
 /*//////////////////////////////
+subscription
+//////////////////////////////*/
+.subscription-plan{
+    margin:0 15px 0 15px;
+    border:2px solid black;
+    min-height:200px;
+    padding:5px;
+    border-radius: 20px;
+}
+.subscription-plan .plan{
+    text-align: center;
+}
+
+/*//////////////////////////////
 positioning and sizes
 //////////////////////////////*/
 .flex {
@@ -173,12 +187,11 @@ footer {
 }
 
 a .link-highlight{
-    color:#FF9900;
+    color:lightblue;
     text-decoration: underline;
 }
 a:hover .link-highlight{
-    color:#FF9900;
-    text-decoration: underline;
+    color:darkblue;
 }
 
 /*/////////////////////////////
@@ -189,3 +202,9 @@ Trailer Positioning
     display: flex;
     justify-content: space-around;
 }
+.caps-lock{
+    text-transform: uppercase;
+}
+
+
+
