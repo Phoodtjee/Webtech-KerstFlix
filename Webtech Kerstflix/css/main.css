@@ -1,5 +1,6 @@
 html {
-    background-color: rgba(0, 0, 0, 0.90);
+    background: url("../img/background.jpg") fixed;
+    background-size: cover;
     font-family: 'Exo 2', sans-serif;
     font-size: 24px;
 }
@@ -28,7 +29,7 @@ nav > div {
 
 nav ul li {
     display: inline-block;
-    font-size: 20px;
+    font-size: 35px;
 }
 
 nav a {
@@ -45,49 +46,13 @@ li:hover {
     background-color: rgba(255, 255, 255, 0.05);
 }
 
-nav > ul > li > ul{
-    visibility:hidden;
-}
-nav > ul > li:hover > ul{
-    visibility:visible;
-}
-
-nav li li:hover{
-    background-color:gray;
-}
-
-nav li ul {
-    display: none;
-    height: auto;
-    position: absolute;
-    width: auto;
-}
-nav li:hover ul {
-    display: block;
-}
-nav li li {
-    display: block;
-    float: none;
-    width: 200px;
-    background: silver;
-
-}
-nav li:hover li a {
-    background: none;
-}
-nav li ul a:hover,
-nav li ul li:hover a {
-    border: 0;
-    text-decoration: none;
-}
-
 /*end nav*/
 
 body {
     width: 1140px;
     margin: auto;
     margin-top: 50px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.8);
     padding: 20px;
 }
 
@@ -214,14 +179,6 @@ positioning and sizes
 .space-top {
     margin-top: 20px;
 }
-/*//////////////////////////////
-radio button
-//////////////////////////////*/
-
-
-
-
-
 
 /*//////////////////////////////
 generic classes
@@ -231,16 +188,15 @@ footer {
 }
 
 a .link-highlight{
-    color:lightblue;
+    color:#FF9900;
     text-decoration: underline;
 }
 a:hover .link-highlight{
-    color:darkblue;
+    color:#FF9900;
+    text-decoration: underline;
 }
 
-.caps-lock{
-    text-transform: uppercase;
-}
+
 
 
 
