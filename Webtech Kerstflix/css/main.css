@@ -250,6 +250,22 @@ over ons
 }
 
 /*//////////////////////////////
+Gebruiker
+//////////////////////////////*/
+.gebruiker aside ul{
+    width:fit-content;
+    list-style-type: none;
+    height:100%;
+    border-right:rgba(0,0,0,0.6) 1px solid;
+    padding-right:10px;
+}
+
+.gebruiker aside ul li{
+    border-bottom:1px solid darkgray;
+}
+
+
+/*//////////////////////////////
 positioning and sizes
 //////////////////////////////*/
 .flex {
