@@ -278,6 +278,10 @@ Gebruiker
     justify-content: space-around;
 }
 
+.trailer video{
+    max-width: 100%;
+}
+
 .caps-lock {
     text-transform: uppercase;
 }
