@@ -235,8 +235,19 @@ over ons
 
 .persoon{
     text-align: center;
+    padding:20px;
 }
 
+.persoon .img-div{
+    height:140px;
+    justify-content:center;
+}
+
+.persoon img{
+    height:140px;
+    width:140px;
+    border-radius: 50%;
+}
 
 /*//////////////////////////////
 positioning and sizes
