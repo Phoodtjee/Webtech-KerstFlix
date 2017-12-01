@@ -5,6 +5,41 @@ html {
     font-size: 24px;
 }
 
+body {
+    width: 1140px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+input,
+select {
+    width: 100%;
+    font-size: 1em;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+input[type=radio] {
+    height: 20px;
+    width: 20px;
+}
+
+form button {
+    font-size: 1em;
+    padding: 5px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
 /*nav*/
 nav {
     position: fixed;
@@ -34,12 +69,6 @@ nav ul li {
 
 nav a {
     color: white;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-    margin: 10px;
 }
 
 li:hover {
@@ -89,16 +118,6 @@ nav li ul li:hover a {
 nav .right {
     position: relative;
     left: -96px;
-}
-
-/*end nav*/
-
-body {
-    width: 1140px;
-    margin: auto;
-    margin-top: 50px;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px;
 }
 
 /*//////////////////////////////
@@ -212,26 +231,6 @@ subscription
     margin-top: 20px;
 }
 
-input,
-select {
-    width: 100%;
-    font-size: 1em;
-    background-color: rgba(255, 255, 255, 0.75);
-}
-
-input[type=radio] {
-    height: 20px;
-    width: 20px;
-}
-
-form button {
-    font-size: 1em;
-    padding: 5px;
-    background: white;
-    border: 1px solid black;
-    border-radius: 10px;
-    margin-top: 10px;
-}
 /*//////////////////////////////
 over ons
 //////////////////////////////*/
@@ -270,6 +269,22 @@ Gebruiker
     border-bottom:1px solid darkgray;
 }
 
+/*/////////////////////////////
+ Trailer Positioning
+ /////////////////////////////*/
+
+.Trailer-Flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.caps-lock {
+    text-transform: uppercase;
+}
+
+.align-right {
+    text-align: right;
+}
 
 /*//////////////////////////////
 positioning and sizes
@@ -327,23 +342,3 @@ footer{
     margin-top:20px;
     border-top:1px solid black;
 }
-
-/*/////////////////////////////
- Trailer Positioning
- /////////////////////////////*/
-
-.Trailer-Flex {
-    display: flex;
-    justify-content: space-around;
-}
-
-.caps-lock {
-    text-transform: uppercase;
-}
-
-.align-right {
-    text-align: right;
-}
-
-
-
