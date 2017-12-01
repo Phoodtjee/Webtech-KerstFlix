@@ -1,45 +1,3 @@
-html {
-    background: url("../img/background.jpg") fixed;
-    background-size: cover;
-    font-family: 'Exo 2', sans-serif;
-    font-size: 24px;
-}
-
-body {
-    width: 1140px;
-    margin: auto;
-    margin-top: 50px;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-    margin: 10px;
-}
-
-input,
-select {
-    width: 100%;
-    font-size: 1em;
-    background-color: rgba(255, 255, 255, 0.75);
-}
-
-input[type=radio] {
-    height: 20px;
-    width: 20px;
-}
-
-form button {
-    font-size: 1em;
-    padding: 5px;
-    background: white;
-    border: 1px solid black;
-    border-radius: 10px;
-    margin-top: 10px;
-}
-
 /*nav*/
 nav {
     position: fixed;
@@ -146,7 +104,7 @@ movies
     border-bottom: 1px solid #000
 }
 
-.movies .category.last{
+.movies .category.last {
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
@@ -234,39 +192,39 @@ subscription
 /*//////////////////////////////
 over ons
 //////////////////////////////*/
-.personen{
-    margin-top:40px;
+.personen {
+    margin-top: 40px;
 }
 
-.persoon{
+.persoon {
     text-align: center;
-    padding:20px;
+    padding: 20px;
 }
 
-.persoon .img-div{
-    height:140px;
-    justify-content:center;
+.persoon .img-div {
+    height: 140px;
+    justify-content: center;
 }
 
-.persoon img{
-    height:140px;
-    width:140px;
+.persoon img {
+    height: 140px;
+    width: 140px;
     border-radius: 50%;
 }
 
 /*//////////////////////////////
 Gebruiker
 //////////////////////////////*/
-.gebruiker aside ul{
-    width:fit-content;
+.gebruiker aside ul {
+    width: fit-content;
     list-style-type: none;
-    height:100%;
-    border-right:rgba(0,0,0,0.6) 1px solid;
-    padding-right:10px;
+    height: 100%;
+    border-right: rgba(0, 0, 0, 0.6) 1px solid;
+    padding-right: 10px;
 }
 
-.gebruiker aside ul li{
-    border-bottom:1px solid darkgray;
+.gebruiker aside ul li {
+    border-bottom: 1px solid darkgray;
 }
 
 /*/////////////////////////////
@@ -278,7 +236,7 @@ Gebruiker
     justify-content: space-around;
 }
 
-.trailer video{
+.trailer video {
     max-width: 100%;
 }
 
@@ -342,7 +300,7 @@ a:hover .link-highlight {
     text-decoration: underline;
 }
 
-footer{
-    margin-top:20px;
-    border-top:1px solid black;
+footer {
+    margin-top: 20px;
+    border-top: 1px solid black;
 }
