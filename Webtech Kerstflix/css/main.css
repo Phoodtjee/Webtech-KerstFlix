@@ -128,6 +128,13 @@ movies
     border-bottom: 1px solid #000
 }
 
+.movies .category.last{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    border-bottom: none;
+}
+
 /*//////////////////////////////
 movie
 //////////////////////////////*/
@@ -315,6 +322,11 @@ a .link-highlight {
 a:hover .link-highlight {
     color: darkblue;
     text-decoration: underline;
+}
+
+footer{
+    margin-top:20px;
+    border-top:1px solid black;
 }
 
 /*/////////////////////////////
